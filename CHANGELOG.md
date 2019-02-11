@@ -1,5 +1,6 @@
 # Change log
 
+* Add `RSpec/NoExpectations`,`RSpec/NoShouldSyntax`,`RSpec/CountSpecialCheck`,`RSpec/EmptyExample` cops
 ## Master (Unreleased)
 
 * Fixed `RSpec/ContextWording` missing `context`s with metadata. ([@pirj][])

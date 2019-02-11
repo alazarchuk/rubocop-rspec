@@ -105,8 +105,15 @@ module RuboCop
       end
 
       module Expectations
-        ALL = SelectorSet.new(%i[expect is_expected expect_any_instance_of])
+        ALL = SelectorSet.new(%i[
+          expect is_expected expect_any_instance_of
+          should should_not should_receive should_not_receive
+        ])
       end
+
+      # module OldExpectations
+      #   ALL = SelectorSet.new(%i[should should_not should_receive should_not_receive])
+      # end
 
       ALL =
         ExampleGroups::ALL +

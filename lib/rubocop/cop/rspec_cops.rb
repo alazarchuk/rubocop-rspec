@@ -76,3 +76,8 @@ require_relative 'rspec/unspecified_exception'
 require_relative 'rspec/verified_doubles'
 require_relative 'rspec/void_expect'
 require_relative 'rspec/yield'
+
+require_relative 'rspec/empty_example'
+require_relative 'rspec/no_expectations'
+require_relative 'rspec/count_special_check'
+require_relative 'rspec/no_should_syntax'
